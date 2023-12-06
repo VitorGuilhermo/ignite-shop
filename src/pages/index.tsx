@@ -1,7 +1,7 @@
 import { styled } from "../styles/index"
 
 const Button = styled('button', {
-  backgroundColor: '$rocketseat',
+  backgroundColor: '$green300',
   borderRadius: 4,
   border: 0,
   padding: '4px 8px',
@@ -19,7 +19,6 @@ const Button = styled('button', {
 export default function Home() {
   return (
     <Button>
-      <span>aa</span>
       Enviar
     </Button>
   )
